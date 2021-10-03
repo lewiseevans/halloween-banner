@@ -21,3 +21,7 @@ def draw():
 
 
     unicornhathd.set_pixel(6, 1, 255, 136, 33)
+
+    unicornhathd.show()
+
+    time.sleep(5)

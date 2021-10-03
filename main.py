@@ -1,8 +1,5 @@
 #!/usr/bin/env python
 
-
-import stocking
-import rainbow
 import pumpkin
 import unicornhathd
 import signal
