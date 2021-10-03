@@ -55,7 +55,7 @@ def draw():
     unicornhathd.set_pixel(11, row, 255, 136, 33)
     unicornhathd.set_pixel(12, row, 255, 136, 33)
     unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(15, row, 255, 136, 33)
+    unicornhathd.set_pixel(14, row, 255, 136, 33)
 
     row += 1
     unicornhathd.set_pixel(1, row, 255, 136, 33)
