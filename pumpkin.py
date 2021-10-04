@@ -21,153 +21,59 @@ def draw():
     time.sleep(0.5)
 
     green = (0, 180, 0)
+    orange = (255, 136, 33)
 
     row = 1
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
+    util.drawManyPixels(4, row, orange, 8)
 
     row += 1
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-
-    row += 1
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
+    util.drawManyPixels(3, row, orange, 10)
     
     row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
-
-    row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
-
-    row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
+    util.drawManyPixels(2, row, orange, 2)
+    util.drawManyPixels(12, row, orange, 2)
     
     row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
+    util.drawManyPixels(1, row, orange, 4)
+    util.drawManyPixels(11, row, orange, 4)
+    
+    row += 1
+    util.drawManyPixels(1, row, orange, 5)
+    util.drawManyPixels(7, row, orange, 2)
+    util.drawManyPixels(10, row, orange, 5)
+    
+    row += 1
+    util.drawManyPixels(1, row, orange, 14)
+        
+    row += 1
+    util.drawManyPixels(1, row, orange, 14)
+    
 
     row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
+    util.drawManyPixels(1, row, orange, 5)
+    util.drawManyPixels(7, row, orange, 2)
+    util.drawManyPixels(10, row, orange, 5)
 
     row += 1
-    unicornhathd.set_pixel(1, row, 255, 136, 33)
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
-    unicornhathd.set_pixel(14, row, 255, 136, 33)
-
+    util.drawManyPixels(1, row, orange, 4)
+    util.drawManyPixels(7, row, orange, 2)
+    util.drawManyPixels(11, row, orange, 4)
 
     row += 1
-    unicornhathd.set_pixel(2, row, 255, 136, 33)
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-    unicornhathd.set_pixel(13, row, 255, 136, 33)
+    util.drawManyPixels(2, row, orange, 2)
+    util.drawManyPixels(6, row, orange, 4)
+    util.drawManyPixels(12, row, orange, 2)
+        
+    row += 1
+    util.drawManyPixels(3, row, orange, 10)
 
     row += 1
-    unicornhathd.set_pixel(3, row, 255, 136, 33)
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
-    unicornhathd.set_pixel(12, row, 255, 136, 33)
-
-
-    row += 1
-    unicornhathd.set_pixel(4, row, 255, 136, 33)
-    unicornhathd.set_pixel(5, row, 255, 136, 33)
-    unicornhathd.set_pixel(6, row, 255, 136, 33)
-    unicornhathd.set_pixel(7, row, 255, 136, 33)
-    unicornhathd.set_pixel(8, row, 255, 136, 33)
-    unicornhathd.set_pixel(9, row, 255, 136, 33)
-    unicornhathd.set_pixel(10, row, 255, 136, 33)
-    unicornhathd.set_pixel(11, row, 255, 136, 33)
+    util.drawManyPixels(4, row, orange, 8)
 
     row += 1
     util.drawManyPixels(7, row, green, 2)
+
+    row += 1
     util.drawPixel(8, row, green)
 
     unicornhathd.show()
