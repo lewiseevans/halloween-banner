@@ -24,26 +24,32 @@ def draw():
     time.sleep(0.5)
 
     row = 0
-    drawRow(7, row, darkGrey)
-    drawRow(8, row, darkGrey)
-    drawRow(9, row, darkGrey)
-    drawRow(10, row, darkGrey)
-    drawRow(11, row, darkGrey)
-
+    drawManyPixels(7, row, darkGrey, 5)
+    
     row+=1
-    drawRow(5, row, darkGrey)
-    drawRow(6, row, darkGrey)
-    drawRow(7, row, white)
-    drawRow(8, row, white)
-    drawRow(9, row, white)
-    drawRow(10, row, white)
-    drawRow(11, row, white)
-    drawRow(12, row, darkGrey)
-    drawRow(13, row, darkGrey)
+    drawManyPixels(5, row, darkGrey, 2)
+    
+    drawManyPixels(7, row, white, 5)
+
+    drawManyPixels(12, row, darkGrey, 2)
+    
+    row+=1
+    drawPixel(5, row, darkGrey)
+    drawManyPixels(6, row, lightGrey, 2)
+    drawManyPixels(8, row, white, 3)
+    drawPixel(11, row, darkGrey)
+    drawPixel(12, row, white)
+    drawPixel(13, row, darkGrey)
+
     unicornhathd.show()
 
     time.sleep(5)
 
+def drawManyPixels(col, row, color, numToDraw):
+    i = 0
+    while i < numToDraw:
+        drawPixel(col, row, color)
+        i += 1
 
-def drawRow(col, row, color):
+def drawPixel(col, row, color):
     unicornhathd.set_pixel(col, row, color[0], color[1], color[2])
