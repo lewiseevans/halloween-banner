@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-import pumpkin
-import vampire
 import unicornhathd
 import signal
-
+import pumpkin
+import vampire
+import ghost
 
 def shutdownHandler(sig, frame):
     print('Shutting down')
@@ -17,3 +17,4 @@ signal.signal(signal.SIGINT, shutdownHandler)
 while True:
     pumpkin.draw()
     vampire.draw()
+    ghost.draw()
