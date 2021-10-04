@@ -26,14 +26,13 @@ def draw():
     row = 0
     drawManyPixels(7, row, darkGrey, 5)
     
-    row+=1
+    row += 1
     drawManyPixels(5, row, darkGrey, 2)
-    
     drawManyPixels(7, row, white, 5)
-
     drawManyPixels(12, row, darkGrey, 2)
     
-    row+=1
+    row += 1
+
     drawPixel(5, row, darkGrey)
     drawManyPixels(6, row, lightGrey, 2)
     drawManyPixels(8, row, white, 3)
@@ -49,6 +48,7 @@ def drawManyPixels(col, row, color, numToDraw):
     i = 0
     while i < numToDraw:
         drawPixel(col, row, color)
+        col += 1
         i += 1
 
 def drawPixel(col, row, color):
