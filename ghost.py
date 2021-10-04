@@ -45,5 +45,5 @@ def draw():
     time.sleep(5)
 
 
-    def: drawRow(col, row, color):
-        unicornhathd.set_pixel(col, row, color[0], color[1], color[2])
+def drawRow(col, row, color):
+    unicornhathd.set_pixel(col, row, color[0], color[1], color[2])
