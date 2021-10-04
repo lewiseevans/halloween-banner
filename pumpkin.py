@@ -2,6 +2,7 @@
 
 import unicornhathd
 import time
+import util
 
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
