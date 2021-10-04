@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 import pumpkin
+import vampire
 import unicornhathd
 import signal
 
@@ -15,3 +16,4 @@ signal.signal(signal.SIGINT, shutdownHandler)
 
 while True:
     pumpkin.draw()
+    vampire.draw()
