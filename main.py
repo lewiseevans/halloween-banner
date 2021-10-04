@@ -2,6 +2,7 @@
 
 import unicornhathd
 import signal
+import reaper
 import grave
 import pumpkin
 import vampire
