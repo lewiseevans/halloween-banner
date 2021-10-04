@@ -3,6 +3,7 @@
 import unicornhathd
 import time
 import util
+import ghost
 
 # Get the width and height of the display
 width, height = unicornhathd.get_shape()
@@ -57,7 +58,7 @@ def draw():
     util.drawManyPixels(11, row, darkGrey, 3)
 
     row += 1 #################
-    util.drawPixel(0, row, white)
+    util.drawPixel(0, row, ghost.white)
     util.drawPixel(2, row, darkGrey)
     util.drawPixel(4, row, darkGrey)
     util.drawPixel(6, row, darkGrey)
