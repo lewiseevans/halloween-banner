@@ -28,17 +28,57 @@ def draw():
     
     row += 1
     drawManyPixels(5, row, darkGrey, 2)
-    drawManyPixels(7, row, white, 5)
+    drawManyPixels(7, row, lightGrey, 3)
+    drawManyPixels(10, row, white, 2)
     drawManyPixels(12, row, darkGrey, 2)
     
     row += 1
-
     drawPixel(5, row, darkGrey)
     drawManyPixels(6, row, lightGrey, 2)
     drawManyPixels(8, row, white, 3)
     drawPixel(11, row, darkGrey)
     drawPixel(12, row, white)
     drawPixel(13, row, darkGrey)
+
+    row += 1
+
+    drawManyPixels(2, row, darkGrey, 4)
+    drawManyPixels(6, row, white, 4)
+    drawPixel(10, row, lightGrey)
+    drawManyPixels(11, row, darkGrey, 4)
+
+    row += 1
+    drawPixel(2, row, darkGrey)
+    drawPixel(3, row, white)
+    drawPixel(4, row, darkGrey)
+    drawPixel(5, row, lightGrey)
+    drawManyPixels(6, row, white, 4)
+    drawManyPixels(10, row, lightGrey, 2)
+    drawPixel(12, row, darkGrey)
+    drawPixel(13, row, white)
+    drawPixel(14, row, darkGrey)
+    
+    row += 1
+    drawPixel(2, row, darkGrey)
+    drawPixel(3, row, white)
+    drawPixel(4, row, lightGrey)
+    drawManyPixels(5,row, white, 7)
+    drawPixel(12, row, lightGrey)
+    drawPixel(13, row, white)
+    drawPixel(14, row, darkGrey)
+
+    row += 1
+    drawPixel(2, row, darkGrey)
+    drawManyPixels(5,row, white, 9)
+    drawPixel(14, row, darkGrey)
+    
+    row += 1
+    drawManyPixels(2, row, darkGrey, 3)
+    drawManyPixels(5, row, white, 6)
+    drawPixel(11, row, lightGrey)
+    drawManyPixels(12, row, darkGrey)
+
+    
 
     unicornhathd.show()
 
