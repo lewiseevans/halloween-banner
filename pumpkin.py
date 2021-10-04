@@ -19,7 +19,9 @@ def draw():
 
     time.sleep(0.5)
 
-    row = 2
+    green = (0, 180, 0)
+
+    row = 1
     unicornhathd.set_pixel(4, row, 255, 136, 33)
     unicornhathd.set_pixel(5, row, 255, 136, 33)
     unicornhathd.set_pixel(6, row, 255, 136, 33)
@@ -162,6 +164,10 @@ def draw():
     unicornhathd.set_pixel(9, row, 255, 136, 33)
     unicornhathd.set_pixel(10, row, 255, 136, 33)
     unicornhathd.set_pixel(11, row, 255, 136, 33)
+
+    row += 1
+    util.drawManyPixels(7, row, green, 2)
+    util.drawPixel(8, row, green)
 
     unicornhathd.show()
 
