@@ -111,13 +111,13 @@ def draw():
     drawManyPixels(4, row, white, 2)
     drawPixel(7, row, white)
     drawManyPixels(9, row, white, 2)
-    drawManyPixels(12, row, darkGrey, 2)
+    drawManyPixels(11, row, darkGrey, 2)
 
     row += 1
     drawManyPixels(3, row, darkGrey, 2)
     drawManyPixels(5, row, white, 5)
-    drawPixel(11, row, lightGrey)
-    drawPixel(12, row, darkGrey)
+    drawPixel(10, row, lightGrey)
+    drawPixel(11, row, darkGrey)
 
     row += 1
     drawPixel(5, row, darkGrey)
