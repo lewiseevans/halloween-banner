@@ -69,7 +69,7 @@ def draw():
 
     row += 1
     drawPixel(2, row, darkGrey)
-    drawManyPixels(5,row, white, 9)
+    drawManyPixels(3,row, white, 11)
     drawPixel(14, row, darkGrey)
     
     row += 1
@@ -96,6 +96,36 @@ def draw():
     drawManyPixels(3, row, darkGrey, 10)
     drawManyPixels(4, row, white, 8)
     drawPixel(12, row, lightGrey)
+
+
+    row += 1
+    drawPixel(3, row, darkGrey)
+    drawPixel(4, row, white)
+    drawPixel(7, row, white)
+    drawPixel(10, row, white)
+    drawPixel(11, row, lightGrey)
+    drawPixel(12, row, darkGrey)
+
+    row += 1
+    drawPixel(3, row, darkGrey)
+    drawManyPixels(4, row, white, 2)
+    drawPixel(7, row, white)
+    drawManyPixels(9, row, white, 2)
+    drawManyPixels(12, row, darkGrey, 2)
+
+    row += 1
+    drawManyPixels(3, row, darkGrey, 2)
+    drawManyPixels(5, row, white, 5)
+    drawPixel(11, row, lightGrey)
+    drawPixel(12, row, darkGrey)
+
+    row += 1
+    drawPixel(5, row, darkGrey)
+    drawManyPixels(6, row, lightGrey, 4)
+    drawManyPixels(10, row, darkGrey, 2)
+
+    row += 1
+    drawManyPixels(5, row, darkGrey, 6)
 
     unicornhathd.show()
 
