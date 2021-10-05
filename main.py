@@ -2,6 +2,8 @@
 
 import unicornhathd
 import signal
+import sys
+import moon
 import reaper
 import grave
 import pumpkin
@@ -17,6 +19,7 @@ def shutdownHandler(sig, frame):
 signal.signal(signal.SIGINT, shutdownHandler)
 
 while True:
+    moon.draw()
     reaper.draw()
     grave.draw()
     pumpkin.draw()
