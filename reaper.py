@@ -107,7 +107,7 @@ def draw():
     util.drawManyPixels(9, row, lightGrey, 7)
 
     row = 15
-    util.drawManyPixels(1, row, lightGrey, 16)
+    util.drawManyPixels(0, row, lightGrey, 16)
 
     unicornhathd.show()
     time.sleep(5)
