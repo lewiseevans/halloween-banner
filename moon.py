@@ -41,8 +41,8 @@ def draw():
     util.drawManyPixels(5, row, lightGrey, 3)
     util.drawManyPixels(8, row, white, 2)
     util.drawPixel(10, row, darkGrey)
-    util.drawPixel(12, row, white)
-    util.drawPixel(13, row, lightGrey)
+    util.drawPixel(11, row, white)
+    util.drawPixel(12, row, lightGrey)
 
     row = 5
     util.drawPixel(2, row, lightGrey)
@@ -78,7 +78,7 @@ def draw():
     util.drawPixel(8, row, lightGrey)
     util.drawManyPixels(9, row, darkGrey, 2)
     util.drawManyPixels(11, row, white, 2)
-    util.drawPixel(12, row, lightGrey)
+    util.drawPixel(13, row, lightGrey)
 
     row = 8
     util.drawPixel(2, row, lightGrey)
