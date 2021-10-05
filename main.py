@@ -17,7 +17,7 @@ def shutdownHandler(sig, frame):
 signal.signal(signal.SIGINT, shutdownHandler)
 
 while True:
-    reapoer.draw()
+    reaper.draw()
     grave.draw()
     pumpkin.draw()
     vampire.draw()
