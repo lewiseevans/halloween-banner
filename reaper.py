@@ -99,7 +99,7 @@ def draw():
 
     row = 13
     util.drawManyPixels(0, row, lightGrey, 3)
-    util.drawManyPixels(7, row, white, 2)
+    util.drawManyPixels(6, row, white, 3)
     util.drawManyPixels(10, row, lightGrey, 6)
 
     row = 14
